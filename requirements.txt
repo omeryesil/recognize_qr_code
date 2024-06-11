@@ -1,2 +1,4 @@
-pyzbar >= 0.1.9
-opencv-python >= 4.10.0.82
+-i https://pypi.org/simple
+
+pyzbar>=0.1.9
+opencv-python>=4.10.0.82
