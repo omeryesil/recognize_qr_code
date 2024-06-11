@@ -3,7 +3,7 @@ python -m venv .venv
 
 # pip install --index-url=https://pypi.org/simple opencv-python # cv2
 # pip install --index-url=https://pypi.org/simple pyzbar
-python -m pip install -r ./requirements.txt
+python -m pip install -i https://pypi.org/simple  -r ./requirements.txt
 
 # required by the pyzbar package for QR code and barcode detection (open source barcode reader)
 # run this in admin mode
