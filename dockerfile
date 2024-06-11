@@ -9,7 +9,8 @@ RUN apt-get update && apt-get install -y \
 
 COPY app/. /app
 
-RUN pip install --no-cache-dir Flask opencv-python pyzbar
+# RUN pip install --no-cache-dir Flask opencv-python pyzbar
+RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 8800
 
