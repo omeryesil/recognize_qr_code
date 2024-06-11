@@ -1,2 +1,4 @@
 pyzbar >= 0.1.9
 opencv-python >= 4.10.0.82
+flask >= 3.0.3
+
