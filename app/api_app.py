@@ -17,6 +17,8 @@ def detect_qr_code(image):
 
     qr_data = []
     for qr_code in qr_codes:
+        print("---------------------------------")
+        print(f"INFO: QR Data: {qr_code}")
         qr_code_data = qr_code.data.decode("utf-8")
         qr_data.append(qr_code_data)
 
